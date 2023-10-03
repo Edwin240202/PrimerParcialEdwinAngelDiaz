@@ -13,4 +13,4 @@ jobs:
         with:
           node-version: 16
       - run: npm install -g surge
-      - run: surge ./ estudiante1.surge.sh --token 52c2c79ef45f230ef54b3719250b31c8 
+      - run: surge ./ estudiante2.surge.sh --token a0ba6f1c41f3b422cc169568e324606b 
