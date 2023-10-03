@@ -20,4 +20,4 @@ jobs:
         surge token  52c2c79ef45f230ef54b3719250b31c8 # Utiliza la API Key almacenada en los secrets de GitHub
 
         # Desplegar en Surge.sh
-        surge --project ./ --domain estudiante11.surge.sh
+        surge --project ./ --domain estudiante1.surge.sh
