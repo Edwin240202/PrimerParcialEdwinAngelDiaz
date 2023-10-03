@@ -17,7 +17,7 @@ jobs:
       run: |
         # Configurar Surge.sh
         npm install --global surge
-        surge token ${{ secrets.SURGE_API_KEY }} # Utiliza la API Key almacenada en los secrets de GitHub
+        surge token  138.197.235.123 # Utiliza la API Key almacenada en los secrets de GitHub
 
         # Desplegar en Surge.sh
-        surge --project ./ --domain ${{ secrets.SURGE_SUBDOMAIN }}.surge.sh # Utiliza el subdominio almacenado en los secrets de GitHub
+        surge --project ./ --domain estudiante1.surge.sh # Utiliza el subdominio almacenado en los secrets de GitHub
