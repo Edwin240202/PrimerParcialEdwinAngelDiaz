@@ -3,14 +3,14 @@ name: Deploy to Surge
 on:
   push:
     branches:
-      - main
+      - branchEdwin
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: PrimerParcialEdwinAngelDiaz
       uses: actions/checkout@v2
 
     - name: Build and Deploy
